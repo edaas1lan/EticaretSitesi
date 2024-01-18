@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dış Giyim Modelleri ve Fiyatları</title>
+    <meta name="description" content="Tesettür Butik">
+    <meta name="keywords" content="Tesettür,butik,giyim,kadın,elbise,kapalı,kazak,alısveris,online,kıyafet">
+    <link rel="stylesheet" href="cssdeneme.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <script src="main.js"></script>
+    <header id="baslık">
+        <div class="logo">
+          <a href="index.html">
+            <img src="logo.png" alt="Tesettür resmi">
+            <p > Hijab Fashion</p>
+        </a>
+        </div>
+        
+        <i id="phone" class="fa-solid fa-phone"></i><a href="#" id="destek">Müsteri Destek Hattı: 0545 210 3240</a>
+        <i id="truck" class="fa-solid fa-truck"></i><a href="https://www.yurticikargo.com/tr/online-servisler/gonderi-sorgula" id="kargo">Kargom Nerde?</a>
+        <br>
+        <div class="arama">
+          <input type="text" placeholder="Ne Aramıştınız?"> <i class="fa-solid fa-magnifying-glass" style="margin-left: 420px; margin-top: 5px;position: fixed;"></i>
+      </div>
+        
+        <div>
+          <button id="sepet">Sepet</button>
+          <button id="girisYap" onclick="giris()">Giriş Yap / Kayıt Ol</button>
+          <button id="mobile-menu-btn">&#9776; Menu</button>
+          </div>
+        <nav class="menu">
+            <ul>
+            <li><a href="yenigelenler.html">Yeni Gelenler</a></li>
+            <li><a href="elbise.html">Elbise</a></li>
+            <li><a href="tulum.html">Tulum</a></li>
+            <li><a href="takim.html">Takım</a></li>
+            <li><a href="ustgiyim.html">Üst Giyim</a>
+              <ul>
+                <li><a href="sweat.html">Sweat</a></li>
+                <li><a href="kazak.html">Kazak</a></li>
+              </ul>  
+            </li>
+            <li><a href="altgiyim.html">Alt Giyim</a>
+              <ul>
+                <li><a href="pantolon.html">Pantolon</a></li>
+                <li><a href="etek.html">Etek</a></li>
+              </ul>  
+            </li>
+            <li><a href="disgiyim.html">Dış Giyim</a>
+            </li>
+            <li><a href="aksesuar.html">Aksesuar</a>
+              </li>
+            <li><a href="esarp.html">Eşarp&Şal</a></li>
+            <li><a href="outlet.html">Outlet</a></li>
+            </ul>
+          </nav>  
+        </header>
+    
+<div class="kategori">
+<ul>
+   
+    <li>Kategoriler</li><i id="bars" class="fa-solid fa-bars"></i>
+          <li><input type="checkbox"> Kadın Pantolon</li>
+          <li><input type="checkbox"> Kadın Sweat</li>
+          <li><input type="checkbox"> Hırka</li>
+          <li><input type="checkbox"> Elbise</li>
+          <li><input type="checkbox"> Tunik</li>
+        </ul>  
+     
+</ul>
+<ul>
+<li>Renk Paleti</a></li><i id="bars" class="fa-solid fa-bars"></i>
+<li><input type="color"></li>
+</ul>
+<ul>
+    <li>Beden</li><i id="bars" class="fa-solid fa-bars"></i>
+    <li><input type="checkbox"> STD</li>
+    <li><input type="checkbox"> 1 (36-38)</li>
+    <li><input type="checkbox"> 2 (40-42)</li>
+    <li><input type="checkbox"> 3 (44-46)</li>
+</ul>
+<ul style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+    Fiyat <br> <br>
+    <input type="text" placeholder="Min" style="text-indent: 10px; width: 55px; border-radius: 3px; height: 30px; border-style: hidden;background-color: rgb(231, 231, 238);">&nbsp;-&nbsp;
+    <input type="text" placeholder="Max" style="text-indent: 10px;width: 55px; border-radius: 3px; height: 30px; border-style: hidden;background-color: rgb(231, 231, 238);">&nbsp;
+    <input type="button" value="→" style="text-indent: 7px;width: 30px;  border-radius: 3px; height: 30px; border-style: hidden;background-color: rgb(231, 231, 238);">
+</ul>
+<button type="" style="z-index: -1;background-color: rgb(20, 20, 20); color: white; height: 30px; text-align: center; width: 185px; top: 195px; position: relative; left: 23px; border-style: none;">
+  FİLTRELERİ TEMİZLE
+</button>
+</div>
+<main>
+    <div class="product-wrapper">
+        <div class="products" id="products">
+        <img src="disgiyim/antrasi.png" alt="">
+        <p> ANTRASİT Suni Deri Yelek 3-102 <br>
+        <del> 1399.99 TL </del> <br>
+          899.99 TL</p> <button onclick="tikla()">Sepete Ekle</button> <br>
+        <img src="disgiyim/antrasit.png" alt="">
+        <p> ANTRASİT İnce Kaşe Kaban 66-3001 <br>
+          <del>549.99 TL </del> <br>
+          349.99 TL</p> <button onclick="tikla()">Sepete Ekle</button> <br>
+        <img src="disgiyim/bej.png" alt="">
+        <p> BEJ Teddy Kaban 3-100 <br>
+         <del> 1099.99 TL</del> <br>
+          699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button> <br> 
+        <img src="disgiyim/bej1.png" alt="">
+        <p> BEJ Broşlu Buklet Kaban 66-3006 <br>
+         <del> 1099.99 TL</del> <br>
+          699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button> <br>
+        <img src="disgiyim/bej11.png" alt="">
+        <p> BEJ Buklet Yelek 32-6422 <br>
+          <del>1399.99 TL </del> <br>
+          899.99 TL</p> <button onclick="tikla()">Sepete Ekle</button> <br>
+        <img src="disgiyim/bej2.png" alt="">
+        <p> TAŞ Kaşe Panço 32-6426 <br>
+          <del>849.99 TL</del> <br>
+          549.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/beyaz.png" alt="">
+        <p> EKRU Teddy Kaban 3-100 <br>
+          <del>1099.99 TL</del> <br>
+          699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/buklet.png" alt="">
+        <p> SİYAH Buklet Yelek 32-6422 <br>
+          <del>1399.99 TL</del> <br>
+          899.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/deri.png" alt="">
+        <p> YTAŞ Suni Deri Yelek 3-102 <br>
+          <del>1399.99 TL</del> <br>
+          899.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/dugmeli.png" alt="">
+        <p> BEJ Düğmeli Oversize Kaşe Kısa Kaban 32-6408 <br>
+         <del>1099.99 TL</del> <br>
+          499.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/ekru.png" alt="">
+        <p> LACİVERT Çizgili Hırka 6-5384 <br>
+           <del>649.99 TL </del><br>
+          399.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/fistik.png" alt="">
+        <p> FISTIK YEŞİLİ Broşlu Buklet Kaban 66-3006 <br>
+          <del>1099.99 TL</del> <br>
+          699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/gri.png" alt="">
+        <p>GRİ Aksesuarlı Scuba Kap 66-3005 <br>
+         <del> 779.99 TL</del><br>
+          499.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/haki.png" alt="">
+        <p> HAKİ Detaylı Scuba Kap 66-5001 <br>
+         <del> 939.99 TL</del><br>
+          599.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/hirka.png" alt="">
+        <p> TAŞ Triko Hırka 3-3081 <br>
+        <del>  699.99 TL</del><br>
+          299.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kaban.png" alt="">
+        <p>GRİ Oversize Kaşe Kaban 32-6502 <br>
+        <del>  1249.99 TL</del><br>
+          549.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kahverengi.png" alt="">
+        <p>KAHVERENGİ Teddy Kaban 3-100 <br>
+         <del> 1099.99 TL</del><br>
+          699.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kahverengi1.png" alt="">
+        <p>KAHVERENGİ Fermuarlı Suni Deri Yelek 3-093 <br>
+       <del>   1399.99 TL</del><br>
+          899.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kase.png" alt="">
+        <p> SİYAH Broşlu Buklet Kaban 66-3006 <br>
+          <del>1099.99 TL</del> <br>
+          699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kase1.png" alt="">
+        <p> TAŞ Balon Kol Kaşe Kaban 32-6405 <br>
+          <del>1199.99 TL </del> <br>
+          599.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kase2.png" alt="">
+        <p> ANTRASİT Kaşe Kapüşonlu Kap 32-6406 <br>
+        <del>  949.99 TL</del><br>
+          499.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kemer.png" alt="">
+        <p> GRİ Kemerli Kaşe Kaban 32-6425 <br>
+          <del>1099.99 TL </del> <br>
+          499.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kol.png" alt="">
+        <p> ANTRASİT Balon Kol Kaşe Kaban 32-6405 <br>
+          <del>1199.99 TL</del> <br>
+          599.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/kurk.png" alt="">
+        <p> BEJ Suni Kürk Yelek 32-6413 <br>
+        <del>  1099.99 TL</del><br>
+          699.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/lacivert.png" alt="">
+        <p>LACİVERT Aksesuarlı Scuba Kap 66-3005 <br>
+         <del> 779.99 TL</del><br>
+          499.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/parlak.png" alt="">
+        <p> ANTRASİT Parlak Şişme Yelek 3-3092 <br>
+          <del>1249.99 TL</del> <br>
+          799.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/siyah.png" alt="">
+        <p>SİYAH Teddy Kaban 3-100 <br>
+          <del> 1099.99 TL</del><br>
+           699.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/siyah1.png" alt="">
+        <p>SİYAH Aksesuarlı Scuba Kap 66-3005 <br>
+          <del> 779.99 TL</del><br>
+           499.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/tas.png" alt="">
+        <p>TAŞ Aksesuarlı Scuba Kap 66-3005 <br>
+          <del> 779.99 TL</del><br>
+           499.99 TL </p><button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/vizon.png" alt="">
+        <p> VİZON Balon Kol Kaşe Kaban 32-6405 <br>
+        <del> 1199.99 TL </del> <br>
+          599.99 TL</p> <button onclick="tikla()">Sepete Ekle</button>
+        <img src="disgiyim/yesil.png" alt="">
+        <p> YEŞİL Desenli Kaban 32-6416 <br>
+          <del>849.99 TL </del> <br>
+          549.99 TL </p> <button onclick="tikla()">Sepete Ekle</button>
+
+    </div>
+    </div>
+</main>
+
+<footer>
+<div id="kaynak">
+    BİZE ULAŞIN <br> <br>
+    <i class="fa-solid fa-phone"></i> 05452103240 <br>
+    <i class="fa-solid fa-envelope"></i> siparis@tesettürbutik.com <br>
+    <i class="fa-solid fa-location-dot"></i>  saray fatih mahallesi bulut sokak no:5/29 pursaklar/ankara <br><br>
+KURUMSAL
+<ol>
+    <li>Hakkımızda</li>
+    <li>Gizlilik Sözlesmesi</li>
+    <li>Satış Sözlesmesi</li>
+    <li>Güvenli Alısveris</li>
+    <li>İletisim</li>
+</ol>
+HESABIM
+<ol>
+<li>Üye Ol</li>
+<li>Üye Girişi</li>
+<li>Sık Sorulan Sorular</li>
+<li>Alışveriş Sepetim</li>
+</ol> 
+</div>
+</footer>
+</body>
+</html>
