@@ -1,0 +1,463 @@
+::-webkit-scrollbar{
+    background-color: rgb(109, 41, 148);
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+body{
+    background-color: rgb(228, 149, 248);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+header {
+    width:100%;
+    height: 25%;
+    top:0;
+    left:0;
+    position: fixed;
+    background-color: #b77bda;
+    text-align: center;
+    
+}
+  
+.logo img{
+    width:8%;
+    top: -2px;
+    height:90px;
+    float:left;
+    
+}
+
+.logo p{
+    float:left;
+    margin-left: 1%;
+    margin-top:10px;
+    color:rgb(95, 18, 85);
+    font-size:25px;
+    
+    top: 20px;
+    position: relative;
+
+}
+header div button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  top: 65px;
+  float: right;
+  position: relative;
+  color: white; 
+  margin-right: 10px;
+}
+
+header div button:nth-child(1) {
+  background-color: rgb(100, 43, 146);
+}
+
+header div button:nth-child(2) {
+  background-color: blueviolet;
+}
+
+header div button:nth-child(3) {
+  background-color: rgb(141, 92, 187);
+}
+#kargo{
+   float: right;
+   padding-right: 30px;
+   top: 35px;
+   position: relative;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#truck{
+    top: 35px;
+    left: 300px;
+    position: relative;
+    font-size: 18px;
+    color: black;
+}
+#destek{
+    font-size: 17px;
+    position: relative;
+    top: 23%;
+   
+    text-decoration: none;
+    color: black;
+}
+#phone{
+    top: 23%;
+    left:-5px;
+    position: relative;
+    font-size: 18px;
+    color: black;
+}
+.menu {
+  padding: 100px 150px;
+}
+.menu ul{
+  list-style: none;
+  margin: 0;
+  left: -35px;
+  font-size: 16px;
+}
+ 
+.menu li{
+  float: left;
+  width: 100px;
+}
+ 
+.menu ul li ul{
+  display: none;
+}
+ 
+.menu ul li:hover ul{
+ display: inline;
+}
+ 
+.menu ul li a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  z-index: 1000;
+  
+}
+ 
+.menu ul li ul li a{
+  text-align: left;
+  background:plum;
+  padding: 5px;
+  border-bottom: purple;
+  font-size: 16px;
+
+}
+ 
+.menu li a:hover{
+  background: rgb(133, 47, 190);
+  transition: .5s;
+}
+ 
+.menu ul li ul li a:hover{
+  padding-left: 15px;
+  
+}
+  .arama{
+    top: 30%;
+    position: relative;
+    left:-300px;
+  }
+  .arama input{
+    border-radius: 3px;
+    border-style:hidden;
+    background-color: rgb(226, 240, 240);
+    width: 30%;
+    height: 30px;
+    text-indent: 10px;
+    position: fixed;
+    
+    
+  }
+  .slayt{
+    display: flex;
+    gap: 1rem;
+    height: 600px;
+    margin-top: 100px;
+  }
+  .slayt>div{
+    flex:1;
+    background: var(--i) no-repeat center;
+    background-size: auto 70%;
+    border-radius: 1rem;
+    transition: all .7s cubic-bezier(.25,.4,.45,1.4);
+  }
+.slayt>div:hover{flex:6;}
+
+  .tanitim img{
+    height: 45%;
+    width: 45%;
+    margin-top: 0;
+    margin-left: 3.5%;
+    margin-bottom: 70px;
+  }
+  footer{
+
+    background-color: #663e7e;
+    padding: 25px;
+    margin-top: 0px;
+    width:97.6%;
+    left: -10px;
+    position: relative;
+  }
+  footer p{
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+  }
+  #kaynak{
+    padding: 10px;
+    margin-top: 30px;
+  
+  }
+  
+  ol{
+    list-style-type: none;
+  }
+  .kategori ul{
+  top:  150px;
+  list-style: none;
+  margin-left: 15px;
+  position: relative;
+  padding: 25px;
+  z-index: -1;
+
+  }
+  .kategori ul li {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 3px;
+  }
+  .kategori li a:hover{
+    background: rgb(221, 214, 224);
+    transition: .5s;
+  }
+  #bars{
+    left: -15px;
+    top:-21px;
+    position: relative;
+  }
+  
+.product-wrapper{
+  padding: 250px;
+  margin-top: -850px;
+  padding-bottom: 10px;
+  
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items:flex-start;
+  padding: 35px;
+ 
+  
+}
+
+.products img{
+width: 25%;
+height: 25%;
+border: 2px solid black;
+border-radius: 10px;
+padding: 15px 15px 15px;
+
+
+}
+.products button{
+background-color: rgb(0, 0, 0);
+color: rgb(164, 114, 192);
+border: none;
+border-radius: 10px;
+padding: 10px 15px ;
+margin-top: 85px;
+margin-left: -105px;
+font-weight: 750;
+cursor: pointer;
+
+}
+
+  
+
+#form{
+  width: 50%;
+  padding: 60px;
+  top: 200px;
+  position: relative;
+   margin-left: 230px;
+   text-align: center;
+   
+
+}
+#form input{
+  border-radius: 3px;
+  border-style:hidden;
+  background-color: rgb(226, 240, 240);
+  width: 50%;
+  height: 30px;
+  text-indent: 4px;
+}
+
+#mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+margin-top: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #mobile-menu-btn{
+      display: block;
+      position: absolute;
+      top: 37px;
+      right: 35px;
+      color: white;
+      cursor: pointer;
+    }
+    #destek{
+      display: block;
+     float:left;
+    }
+.arama,#phone{
+  display: none;
+}
+#sepet,#girisYap{
+  margin-top: -5px;
+}
+    .menu {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: -100px;
+        width: 100%;
+        background-color: #b77bda;
+       padding: 20px 230px 0px 35%
+    }
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        top: 50px;
+        left: 0;
+    }
+  
+    .menu li {
+        width: 70%;
+    }
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    header {
+      height: auto;
+    }
+    
+    .logo img {
+      width: 12%;
+      height: auto;
+    }
+  
+    .logo p {
+      margin-top: 0;
+    }
+  
+    header div button {
+      top: 10px;
+      margin-right: 1px;
+      margin-left: 1px;
+    }
+    .tanitim img {
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+    }
+  
+    footer {
+      margin-top: 50px;
+    }
+  
+    #kaynak {
+      padding: 10px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+  ol {
+    list-style-type: none;
+}
+
+.kategori ul {
+    list-style: none;
+    margin-left: 0;  
+    position: relative;
+    padding: 15px;  
+    margin-top: -20px;
+}
+
+.kategori ul li {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px;
+}
+.kategori li a:hover {
+    background: rgb(221, 214, 224);
+    transition: 0.5s;
+}
+
+#bars {
+    left: -10px; 
+    top: -27px; 
+    position: relative;
+}
+  .product-wrapper {
+    padding: 0px;
+    margin-top: 200px; 
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    align-items: flex-start;
+    padding: 15px;  
+}
+
+.products img {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.products button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 114, 192);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 15px; 
+    margin-left: 0;  
+    font-weight: 750;
+    cursor: pointer;
+}
+#form {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+}
+
+#form input {
+  width: auto;
+  }
+
+
+}
